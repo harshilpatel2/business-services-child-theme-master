@@ -1,0 +1,14 @@
+/*
+Theme Name: Mega Project Child Theme
+Theme URI: http://themes.goodlayers.com/megaproject
+Description: Mega Project Wordpress Theme
+Author: Goodlayers
+Author URI: http://inspirythemes.com/
+Version: 1.0
+Template: megaproject-v1-00
+*/
+
+/* = !!! IMPORTANT !!! Please add your custom css styles in child-custom.css file instead of this file
+------------------------------------------------------------------------------------------------------- */
+
+@import url(child-custom.css);

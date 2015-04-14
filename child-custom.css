@@ -1,0 +1,66 @@
+
+/* = Child Theme Custom CSS File
+-------------------------------------------------------------- */
+
+.state-and-federal-filings-wrapper::before {
+  content:"State and Federal Filings";
+}
+
+.license-wrapper::before {
+  content:"Licenses";
+}
+
+.taxes-wrapper::before {
+  content:"Taxes";
+}
+
+.zoning-wrapper::before {
+  content:"Zoning";
+}
+
+.permit-wrapper::before {
+  content:"Permits";
+}
+
+
+#must-have [class*="wrapper"] > div, #might-need [class*="wrapper"] > div, .an-overview{
+  margin:0 0 0 20px;
+  padding: 10px 0;
+}
+
+#must-have [class*="wrapper"]::before, #might-need [class*="wrapper"]::before{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    background: #E4E4E4;
+    padding: 10px;
+}
+#must-have a, #might-need a{
+  font-weight:bold;
+}
+
+#must-have span::before, #might-need span::before{
+  content: " - ";
+}
+#dom-target {
+  display:none;
+}
+
+
+/* = Theme overrides
+-------------------------------------------------------------- */
+.gdlr-item.gdlr-main-content {
+  margin-bottom: 40px;
+}
+.gdlr-item-start-content {
+  padding-top:40px;
+}
+
+a[href$='.pdf']::before{
+  padding:0 6px 0 0;
+  content: " \f1c1";
+  font-family:"FontAwesome";
+}
+a[href$='.pdf']::after{
+  content:" (PDF)";
+}
